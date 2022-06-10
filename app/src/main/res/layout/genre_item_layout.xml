@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <data>
 
+    <data>
+        <variable
+            name="isSelected"
+            type="Boolean" />
         <variable
             name="data"
-            type="com.example.common.entity.discover_movie.DiscoverMovie" />
+            type="com.example.common.entity.genre.Genre" />
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            app:cardBackgroundColor="@color/genre_idle_color"
+            android:layout_width="120dp"
+            app:cardBackgroundColor="@{isSelected?@color/genre_selection_color:@color/genre_idle_color}"
             android:id="@+id/card"
-            android:layout_height="match_parent"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
             app:cardElevation="5dp"
             app:cardUseCompatPadding="true"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +35,8 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:text="@{data.title}"/>
+                android:text="@{data.component2()}"/>
+
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

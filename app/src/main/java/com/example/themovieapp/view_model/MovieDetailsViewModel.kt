@@ -39,7 +39,7 @@ class MovieDetailsViewModel @Inject constructor(
         }
     }
 
-    fun getMovieVideo(videoId : Int) {
+    fun getMovieVideo(videoId: Int) {
         viewModelScope.launch {
             getMovieVideoUseCase.invoke(videoId).collect{
                 it.data?.results?.get(0)?.key?.let { it1 ->
