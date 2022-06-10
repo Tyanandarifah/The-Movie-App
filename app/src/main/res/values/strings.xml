@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheMovieApp</string>
+    <string name="app_common_error_dialog_title">Error</string>
+    <string name="app_common_success_dialog_title">Success</string>
+    <string name="app_common_error_positive_button_text">Ok</string>
+    <string name="app_common_error_negative_button_text">Cancel</string>
+
+    <string name="app_register_success_message">Akun anda berhasil di buat, silakan lanjutkan </string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+
+    </style>
+    <style name="AppTheme.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/app_style_edittext_background</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+    <style name="AppTheme.EditText.Password" parent="AppTheme.EditText">
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="AppTheme.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+
+    </style>
+</resources>
