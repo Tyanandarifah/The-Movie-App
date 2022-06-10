@@ -42,7 +42,7 @@ class DiscoverMovieFragment : BaseFragment<DiscoverMovieViewModel, MoviesFragmen
                 binding.recyclerMovie.visibility = View.GONE
                 binding.progressBar.visibility = View.GONE
                 binding.retryButton.setOnClickListener {
-                    vm.discoverMoviesByGenre(moviesArgs.genre)
+                    adapter.retry()
                 }
             } else if (it.refresh is LoadState.Loading && adapter.itemCount == 0) {
                 binding.retryButton.visibility = View.GONE
