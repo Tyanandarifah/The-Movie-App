@@ -77,8 +77,7 @@ class MovieDetailsFragment : BaseFragment<MovieDetailsViewModel, MovieDetailFrag
                 binding.recycler.visibility = View.GONE
                 binding.progressBar.visibility = View.GONE
                 binding.retryButton.setOnClickListener {
-                    vm.getMovieDetails(movieDetailsArgs.movie)
-                    vm.getMovieVideo(movieDetailsArgs.movie)
+                    adapter.retry()
                 }
             } else if (it.refresh is LoadState.Loading && adapter.itemCount == 0) {
                 binding.retryButton.visibility = View.GONE
