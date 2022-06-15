@@ -6,7 +6,7 @@
     <data>
         <variable
             name="vm"
-            type="com.example.themovieapp.view_model.DiscoverMovieViewModel" />
+            type="id.indocyber.themovieapp.view_model.DiscoverMovieViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -9,7 +9,7 @@
             type="Boolean" />
         <variable
             name="data"
-            type="com.example.common.entity.genre.Genre" />
+            type="id.indocyber.common.entity.genre.Genre" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

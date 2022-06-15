@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/genreFragment"
-        android:name="com.example.themovieapp.fragment.genre.GenreFragment"
+        android:name="id.indocyber.themovieapp.fragment.genre.GenreFragment"
         android:label="GenreFragment" >
         <action
             android:id="@+id/toMovies"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/discoverMovieFragment"
-        android:name="com.example.themovieapp.fragment.movie.DiscoverMovieFragment"
+        android:name="id.indocyber.themovieapp.fragment.movie.DiscoverMovieFragment"
         android:label="DiscoverMovieFragment">
         <argument
             android:name="genre"
@@ -26,7 +26,7 @@
     </fragment>
     <fragment
         android:id="@+id/movieDetailsFragment"
-        android:name="com.example.themovieapp.fragment.movie_details.MovieDetailsFragment"
+        android:name="id.indocyber.themovieapp.fragment.movie_details.MovieDetailsFragment"
         android:label="MovieDetailsFragment">
         <argument
             android:name="movie"

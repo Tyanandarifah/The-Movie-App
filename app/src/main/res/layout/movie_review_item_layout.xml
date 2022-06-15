@@ -3,9 +3,9 @@
     <data>
         <variable
             name="data"
-            type="com.example.common.entity.movie_review.MovieReview" />
+            type="id.indocyber.common.entity.movie_review.MovieReview" />
 
-        <import type="com.example.api_service.Constants" />
+        <import type="id.indocyber.api_service.Constants" />
     </data>
     <com.google.android.material.card.MaterialCardView
         xmlns:android="http://schemas.android.com/apk/res/android"

@@ -13,7 +13,7 @@ android {
     compileSdk = 32
 
     defaultConfig {
-        applicationId = "com.example.themovieapp"
+        applicationId = "id.indocyber.themovieapp"
         minSdk = 21
         targetSdk = 32
         versionCode = 1

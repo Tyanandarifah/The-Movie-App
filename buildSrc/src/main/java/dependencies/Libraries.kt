@@ -21,7 +21,8 @@ fun DependencyHandler.appLibraries() {
     glide()
     gander()
     androidPaging()
-    exoPlayer()
+//    exoPlayer()
     navGraph()
     daggerHilt()
+    youtubePlayer()
 }
